@@ -1,1 +1,51 @@
-/* Your CSS Here! */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containers{
+    max-width: 360px;
+    max-height: 175px;
+    flex-direction: column;
+
+}
+
+#title{
+    height: 75px;
+}
+h1{
+    height: 25px;
+}
+p{
+    height: 25px;
+}
+
+.containers > img{
+    max-width: 100px;
+    max-height: 100px;
+    padding: 25px;
+    background-color: rgb(201, 199, 199);
+    border-radius: 100px;
+    margin: 0 10px 0 10px;
+}
+
+section {
+    display: flex;
+}
+
+.image_text {
+     background-color: rgb(212, 209, 209);
+     text-align: center;
+     border-radius: 25px;
+     margin-top: 5px;
+}
+
+.wrapper {
+    flex-direction: column;
+    max-width: 150px;
+}
+
+
+#flexed-up {
+    display: flex;
+}
